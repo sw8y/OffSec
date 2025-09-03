@@ -48,41 +48,33 @@
 ## LFI/RFI
 
 - [ ]  dot-dot slash attack (../)
-- [ ]  Leverage request terminator for bypassing filters (%00)
+- [ ]  Leverage request terminator for bypassing filters (%00) 
+![alt text](image.png)
     
-    ![Screenshot 2025-06-12 at 4.21.44 PM.png](attachment:883fc55b-07f8-4b9e-9581-8f388fbe3163:Screenshot_2025-06-12_at_4.21.44_PM.png)
     
 - [ ]  Possible input validation technique
-
-![image.png](attachment:b98a9b53-5fca-45ee-b417-0e82e7f4094d:image.png)
+![alt text](image-1.png)
 
 - [ ]  Folders for testing access
-    
-    ![Screenshot 2025-06-12 at 4.18.56 PM.png](attachment:9165fe8b-38e7-4b8f-866c-aa1cb5d173aa:Screenshot_2025-06-12_at_4.18.56_PM.png)
+![alt text](image-2.png)
     
 - [ ]  RFI check
-
-![image.png](attachment:bacb7a5d-1ea9-428e-8917-32dca4f1a4a1:image.png)
+![alt text](image-3.png)
 
 ## SSRF
 
 - [ ]  A Full URL is used in a parameter in the address bar
-
-![image.png](attachment:615b9271-8667-4b4a-aaa9-1523727600c2:image.png)
+![alt text](image-4.png)
 
 - [ ]  A hidden field in a form that contains a URL
-
-![image.png](attachment:627a7956-e5e6-4bed-8760-0c504e3d22b9:image.png)
+![alt text](image-5.png)
 
 - [ ]  A partial URL such as just the hostname
-
-![image.png](attachment:8421f50f-d970-45c4-b6ca-0d032665058f:image.png)
+![alt text](image-6.png)
 
 - [ ]  Only the path of the URL
-
-![image.png](attachment:7fdc9eb3-32e5-442b-b322-f0b1520c42d9:image.png)
-
-![image.png](attachment:107c1647-09e9-438c-a4b7-9d87d9e6c04b:image.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 
 ## XSS
 
