@@ -49,32 +49,32 @@
 
 - [ ]  dot-dot slash attack (../)
 - [ ]  Leverage request terminator for bypassing filters (%00) 
-![alt text](image.png)
+![alt text](images/image.png)
     
     
 - [ ]  Possible input validation technique
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 - [ ]  Folders for testing access
-![alt text](image-2.png)
+![alt text](images/image-2.png)
     
 - [ ]  RFI check
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## SSRF
 
 - [ ]  A Full URL is used in a parameter in the address bar
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 - [ ]  A hidden field in a form that contains a URL
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 - [ ]  A partial URL such as just the hostname
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 - [ ]  Only the path of the URL
-![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](images/image-7.png)
+![alt text](images/image-8.png)
 
 ## XSS
 
