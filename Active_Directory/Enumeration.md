@@ -20,9 +20,17 @@
     | ----------- | ----------- | ----------- | 
     | 88 | Kerberos | Potential for Kerberos-based enumeration | 
     | 135 | MS-RPC | Potential for RPC enumeration (null sessions) | 
-    | 139 | SMB/NetBIOS | Legacy SMB access |
+    | 139 | SMB/NetBIOS Session Service | Legacy SMB access |
     | 389 | LDAP | LDAP queries to AD |
     | 445 | SMB | Modern SMB access, critical for enumeration | 
     | 464 | Kerberos (kpasswd) | Password-related Kerberos service | 
+    | 636 | LDAPS | Secure LDAP; encrypted, but may expose AD structure if misconfigured |
+
+### SMB Shares
+- [ ] List shares using smbclient: smbclient -L //TARGET_IP -N
+- [ ] List shares using smbmap: ./smbmap.py -H IP_ADDRESS
+- [ ] Enumerate using enum4linux: enum4linux -a TARGET_IP
+- [ ] Enumerate using nmap: nmap --script=smb-enum-shares TARGET_IP
+- [ ] Access shares: smbclient //IP_ADDRESS/FOLDER -N
 
 ## Authenticated 
