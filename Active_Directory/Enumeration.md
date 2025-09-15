@@ -14,7 +14,7 @@
     -sC: Runs Nmap Scripting Engine (NSE) scripts in the default category
     -iL: Read the list of target hosts from the provided hosts
 
-- Common ports and protocols associated with Active Directory usage on Domain Controllers:
+- Common ports and protocols associated with Active Directory usage on Domain Controllers: <br>
 | Port | Protocol | Meaning | <br>
 | ----------- | ----------- | ----------- | <br>
 | 88 | Kerberos | Potential for Kerberos-based enumeration | <br>
