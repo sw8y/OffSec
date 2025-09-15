@@ -16,13 +16,13 @@
 
 - Common ports and protocols associated with Active Directory usage on Domain Controllers: <br>
 
-| Port | Protocol | Meaning | 
-| ----------- | ----------- | ----------- | 
-| 88 | Kerberos | Potential for Kerberos-based enumeration | 
-| 135 | MS-RPC | Potential for RPC enumeration (null sessions) | 
-| 139 | SMB/NetBIOS | Legacy SMB access |
-| 389 | LDAP | LDAP queries to AD |
-| 445 | SMB | Modern SMB access, critical for enumeration | 
-| 464 | Kerberos (kpasswd) | Password-related Kerberos service | 
+    | Port | Protocol | Meaning | 
+    | ----------- | ----------- | ----------- | 
+    | 88 | Kerberos | Potential for Kerberos-based enumeration | 
+    | 135 | MS-RPC | Potential for RPC enumeration (null sessions) | 
+    | 139 | SMB/NetBIOS | Legacy SMB access |
+    | 389 | LDAP | LDAP queries to AD |
+    | 445 | SMB | Modern SMB access, critical for enumeration | 
+    | 464 | Kerberos (kpasswd) | Password-related Kerberos service | 
 
 ## Authenticated 
