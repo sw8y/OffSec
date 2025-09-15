@@ -33,4 +33,18 @@
 - [ ] Enumerate using nmap: nmap --script=smb-enum-shares TARGET_IP
 - [ ] Access shares: smbclient //IP_ADDRESS/FOLDER -N
 
+### LDAP Enumeration
+- [ ] ldapsearch -x -H ldap://10.211.11.10 -s base
+    -x: Simple authentication, in our case, anonymous authentication
+    -H: Specifies the LDAP server
+    -s: Limits the query only to the base object and does not search subtrees or children
+- [ ] More refined to Domain: ldapsearch -x -H ldap://10.211.11.10 -b "dc=FIRST_COMPONENT,dc=SECOND_COMPONENT" "(objectClass=person)"
+
+### RPC Enumeration (Null Sessions)
+- [ ] Unathenticated: rpcclient -U "" 10.211.11.10 -N
+    -U: Used to specify the username, in our case, we are using an empty string for anonymous login
+    -N: Tells RPC not to prompt us for a password
+    More info: https://cheatsheet.haax.fr/network/services-enumeration/135_rpc/ 
+
+ 
 ## Authenticated 
