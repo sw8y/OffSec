@@ -56,7 +56,7 @@
 ![alt text](images/image-1.png)
 
 - [ ]  Folders for testing access
-![alt text](images/image-2.png)
+![alt text](../images/image-2.png)
     
 - [ ]  RFI check
 ![alt text](images/image-3.png)
