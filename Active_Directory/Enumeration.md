@@ -54,4 +54,4 @@
 
 ### AS-REP Roasting
 * ==IMPORTATNT:== This technique requires that Kerberos pre-authentication be disabled. The specific flag to look for is (UF_DONT_REQUIRE_PREAUTH). 
-- [ ] Indentifying vulnerable accounts: 
+- [ ] Identifying vulnerable accounts: 
