@@ -6,5 +6,7 @@ This repository contains checklists that will aid in providing direction or prom
 
 ## Sources
 * https://tryhackme.com/module/intro-to-web-hacking
+* https://tryhackme.com/room/adbasicenumeration
+* https://tryhackme.com/room/adauthenticatedenumeration
 * https://my.ine.com/CyberSecurity/learning-paths/61f88d91-79ff-4d8f-af68-873883dbbd8c/penetration-testing-student
 * https://my.ine.com/CyberSecurity/learning-paths/5e26d0ba-d258-49e0-a421-56cc06626f46/penetration-testing-professional

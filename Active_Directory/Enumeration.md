@@ -44,7 +44,14 @@
 - [ ] Unathenticated: rpcclient -U "" 10.211.11.10 -N
     -U: Used to specify the username, in our case, we are using an empty string for anonymous login
     -N: Tells RPC not to prompt us for a password
+- [ ] Get user info using RPC: enumdomusers 
+- [ ] Get group info using RPC: enumdomgroups
+- [ ] Get password info using RPC: getdompwinfo
     More info: https://cheatsheet.haax.fr/network/services-enumeration/135_rpc/ 
 
  
 ## Authenticated 
+
+### AS-REP Roasting
+* ==IMPORTATNT:== This technique requires that Kerberos pre-authentication be disabled. The specific flag to look for is (UF_DONT_REQUIRE_PREAUTH). 
+- [ ] Indentifying vulnerable accounts: 
